@@ -22,7 +22,7 @@ public class Livro implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name = "categoria_id")
-	private Categoria categoria; // iniciando relação com a classe categoria
+	private Categoria categoria;
 
 	public Livro() {
 		super();
